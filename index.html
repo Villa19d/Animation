@@ -34,8 +34,10 @@
       import { GUI } from 'lil-gui';
       import { RGBELoader } from "three/addons/loaders/RGBELoader.js";
       import { Audio, AudioListener, AudioLoader } from "three";
+      import { LoadingManager } from 'three';
 
-      const manager = new THREE.LoadingManager();
+
+      const manager = new LoadingManager();
       let camera, scene, renderer, stats, object, loader, guiMorphsFolder;
       let mixer;
 
